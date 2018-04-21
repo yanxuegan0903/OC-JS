@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "WEBViewController.h"
+
 
 @interface ViewController ()
 
@@ -17,7 +19,22 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    
+    
+    
 }
+
+
+
+- (void)viewDidAppear:(BOOL)animated{
+    WEBViewController * web = [[WEBViewController alloc] init];
+    [self.navigationController pushViewController:web animated:YES];
+    
+}
+
+
 
 
 - (void)didReceiveMemoryWarning {

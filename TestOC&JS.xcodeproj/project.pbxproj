@@ -15,6 +15,7 @@
 		A7381D712089839100571E2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7381D702089839100571E2F /* main.m */; };
 		A7381D7B2089839100571E2F /* TestOC_JSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7381D7A2089839100571E2F /* TestOC_JSTests.m */; };
 		A7381D862089839100571E2F /* TestOC_JSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7381D852089839100571E2F /* TestOC_JSUITests.m */; };
+		A7381D9520898AB500571E2F /* WEBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7381D9420898AB500571E2F /* WEBViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		A7381D812089839100571E2F /* TestOC&JSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TestOC&JSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7381D852089839100571E2F /* TestOC_JSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestOC_JSUITests.m; sourceTree = "<group>"; };
 		A7381D872089839100571E2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7381D9320898AB500571E2F /* WEBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WEBViewController.h; sourceTree = "<group>"; };
+		A7381D9420898AB500571E2F /* WEBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WEBViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				A7381D622089839100571E2F /* AppDelegate.m */,
 				A7381D642089839100571E2F /* ViewController.h */,
 				A7381D652089839100571E2F /* ViewController.m */,
+				A7381D9320898AB500571E2F /* WEBViewController.h */,
+				A7381D9420898AB500571E2F /* WEBViewController.m */,
 				A7381D672089839100571E2F /* Main.storyboard */,
 				A7381D6A2089839100571E2F /* Assets.xcassets */,
 				A7381D6C2089839100571E2F /* LaunchScreen.storyboard */,
@@ -268,6 +273,7 @@
 				A7381D662089839100571E2F /* ViewController.m in Sources */,
 				A7381D712089839100571E2F /* main.m in Sources */,
 				A7381D632089839100571E2F /* AppDelegate.m in Sources */,
+				A7381D9520898AB500571E2F /* WEBViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
